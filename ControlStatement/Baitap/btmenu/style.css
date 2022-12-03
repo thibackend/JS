@@ -1,0 +1,46 @@
+
+#PNV24A,#PNV24B{
+    display: none;
+}
+#PNV24A table{
+    border: 1px solid;
+    text-align: center;
+}
+
+#PNV24A table tr th {
+    height: 50px;
+    width:200px;
+    border: 1px solid;
+
+}
+#PNV24A table tr td{
+    border: 1px solid;
+    height: 50px;
+    width:200px;
+}
+#PNV24A table tr td img{
+    height: 70%;
+    width: 20%;
+}
+
+
+#PNV24B table{
+    border: 1px solid;
+    text-align: center;
+}
+
+#PNV24B table tr th {
+    height: 50px;
+    width:200px;
+    border: 1px solid;
+
+}
+#PNV24B table tr td{
+    border: 1px solid;
+    height: 50px;
+    width:200px;
+}
+#PNV24B table tr td img{
+    height: 70%;
+    width: 20%;
+}

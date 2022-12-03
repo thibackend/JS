@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>thi them git</h1>
+    <h2>demo them 1 file</h2>
+    <table>
+        <tr>
+            <td>Enter first number</td>
+            <td><input type="text" id="frame" onkeyup="myfuntion()"></td>
+        </tr>
+        <tr>
+            <td>Enter second number</td>
+            <td><input type="text" id="fram" onkeyup="myfuntion()"></td>
+        </tr>
+    </table>
+    
+    <p>Sum is : <span id="demo"></span></p>
+    <script>
+        function myfuntion(){
+            var first =parseInt(document.getElementById('frame').value) ;
+            var second = parseInt(document.getElementById('fram').value);
+            document.getElementById('demo').innerHTML= first+second;
+        }
+    </script>
+</body>
+</html>

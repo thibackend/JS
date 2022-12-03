@@ -1,0 +1,27 @@
+.title{
+    position: absolute ;
+    left:40%;
+    top: 1%;
+}
+
+#img{
+    margin-top: 10%;
+    padding:5%;
+    width:200px;
+    height:150px;
+}
+#name{
+  
+    position: relative;
+    width: fit-content;
+    margin-left:7%;
+    height:150px;
+    
+   
+}
+#price {
+    position:relative;
+    top: 30%;
+    left: -13%;
+    margin-left:20%;
+}

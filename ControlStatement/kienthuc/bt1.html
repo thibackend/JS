@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ifelse tính điểm</title>
+</head>
+<body>
+    <p>click the button to check the score</p>
+
+    <input type="number" name="" id="enter">
+    <button onclick="myFunction()">try it</button>
+    <p id="demo"></p>
+    <script>
+        var number = document.getElementById('enter').value;
+        var greeting;
+        function myFunction(){
+            if(number == 0){
+                greeting ="số điểm đạt được là 0";
+            }
+            if (number>0) {
+                greeting =" đó là số dương";
+            }
+            else {
+                greeting ="đó là số âm";
+            }
+            document.getElementById('demo').innerHTML=greeting;
+        }
+    </script>
+    
+</body>
+</html>
