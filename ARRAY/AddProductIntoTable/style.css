@@ -1,0 +1,23 @@
+.khung{
+    width:max-content;
+    height:max-content;
+    background: cornflowerblue;
+   
+}
+
+#table{
+    padding :5px;
+    margin: 10px;
+    background: rgba(12, 213, 240, 0.26);
+    border:solid 0.5px;
+}
+#frm{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.style{
+    width:100px;
+    
+}
