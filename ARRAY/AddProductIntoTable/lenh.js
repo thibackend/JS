@@ -8,7 +8,7 @@ var NamePro=frm.txt_nameP.value;
 var quantity =frm.txt_quantity.value;
 var price =frm.txt_price.value;
     if(nameC=="" || IdPro==""||NamePro==""||quantity==""||price==""){
-        alert("You need Enter all the blank !!")
+        alert("You need to Enter all data  into the blanks !!")
     }
     var a={ 
         nameC:nameC,
