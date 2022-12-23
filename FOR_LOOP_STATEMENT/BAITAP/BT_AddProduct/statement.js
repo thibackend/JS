@@ -22,13 +22,20 @@ function productAdd(){
 }
 
 function add(){
-
+    var no =1;
+    var data1 ='';
     var take =document.frm_product;
     var pro_name=take.txt_name.value;
     var pro_amout= parseInt(take.txt_quantity.vlue);
     var pro_price= parseInt(take.txt_price.value);
+    var total = pro_price*pro_amout;
+    var totalall= totalall +total;
+    var footer= '</table>'
+    var header= '<table> <tr> <th>No</th> <th>name</th> <th>Quantity</th> <th> price</th><th>total</th>';
+    var data1 = '<tr> <td> '+no+'</td> <td>'+pro_name+'</td> <td>'+pro_amout+""+'</td> <td>'+pro_price+""+'</td> <td>'+total+"" +'</td>';
+    var data2 ='<tr><th colspan="4">Total</th><td>'+(totalall+"")+'</td></tr>';
+    document.getElementById('product_list').innerHTML+= header + data1+data2 + footer;
 
-    var header = '<tr> <th>No</th> a'
 
     
 
@@ -39,17 +46,5 @@ function add(){
 
 
 
-
-    var header =`
-    <table border="1">
-        <tr>
-            <th>No</th>
-            <td>Name</td>
-            <td>Quantity</td>
-            <td>Price</td>
-            <td>Sub-total</td>
-        </tr>
-        `;
-    var data='';
 
 }
